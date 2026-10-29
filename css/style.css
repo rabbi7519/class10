@@ -1,0 +1,205 @@
+/* All common css start */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+
+}
+.Container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+
+}
+/* All common css end */
+
+#headerpart{
+    padding: 40px 0;
+    background: #ECEDEF;
+    position: relative;
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menubar{
+    align-items: center;
+}
+.menubar ul{
+    display: flex;
+    column-gap: 40px;
+    
+}
+
+.menubar ul li a {
+    color: #242B36;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.batton a{
+    color: #242B36;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #417D6E;
+    padding: 10px 18px;
+    border-radius: 500px;
+    transition: all linear 0.4s;
+
+}
+.batton a:hover{
+    background: #007456;
+    color: #fff;
+    
+}
+
+.photo img{
+    position: absolute;
+    top: 100px;
+    right: 0;
+
+}
+
+#servicepart{
+    padding: 120px 0px;
+    background: #def3ee;
+}
+.serviceTop{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    margin-bottom: 20px;
+
+}
+.serviceTopright{
+    display: flex;
+    column-gap: 10px;
+}
+.serviceTopright a{
+    padding: 10px 18px;
+    border: 1px solid #417D6E;
+    border-radius: 8px;
+    color: #242B36;
+}
+
+.green a{
+    background-color: #fff;
+    color: #007456;
+}
+.onlybox{
+    column-gap: 10px;
+}
+.serviceTop h3{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.serviceflex{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+.serviceItem{
+    width: 32%;
+    padding: 15px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.08) ;
+    margin-bottom: 30px;
+
+}
+.serviceItem h4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px 0;
+
+}
+.serviceItem h3{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 4px 0;
+
+}
+
+.serviceimg img{
+    width: 100%;
+
+}
+
+.serviceimg{
+    position: relative;
+
+}
+
+.fvtBox{
+    width: 36px;
+    height: 36px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+.fvtBox i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.reviwe{
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    padding: 10px 0;
+
+}
+.reviwe i{
+    color: #FFB21A;
+}
+.reviwe span{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.productUser{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddcece;
+    padding-top: 10px;
+
+
+}
+.proinfo{
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+
+}
+.doller{
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    
+}
